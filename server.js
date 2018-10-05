@@ -120,7 +120,8 @@ const putMidd = db => {
     return (req, res, next) => {
         db.update(Number(req.params.id), req.cleanBody)
             .then(result => {
-                req.putResult = result;
+                req
+                Result = result;
                 next();
             })
             .catch(() => {
