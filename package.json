@@ -1,6 +1,9 @@
 {
   "name": "sprint_challenge_node_express",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.15.0"
+  },
   "description": "- Please open the `Review.md` file and answer the questions.\r - Use Node.js and Express to design and build an API that performs CRUD operations on **projects** and **actions**.",
   "main": "knexfile.js",
   "scripts": {
